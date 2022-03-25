@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandologic.API", "Pandologic.API\Pandologic.API.csproj", "{A4CBE0B0-181A-46F8-A905-B4916C4618E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878} = {8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JobsDB", "JobsDB\JobsDB.sqlproj", "{98E9425A-91C7-4483-891B-C312C3CAF451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandologic.Repositories", "Pandologic.Repositories\Pandologic.Repositories.csproj", "{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandologic.Logic", "Pandologic.Logic\Pandologic.Logic.csproj", "{73C1A4EE-BEE0-4A5F-AF72-7465DFC8C114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4CBE0B0-181A-46F8-A905-B4916C4618E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CBE0B0-181A-46F8-A905-B4916C4618E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CBE0B0-181A-46F8-A905-B4916C4618E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CBE0B0-181A-46F8-A905-B4916C4618E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E9425A-91C7-4483-891B-C312C3CAF451}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE73234-2B7C-43C2-A9B6-43A6EA1FD878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C1A4EE-BEE0-4A5F-AF72-7465DFC8C114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C1A4EE-BEE0-4A5F-AF72-7465DFC8C114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C1A4EE-BEE0-4A5F-AF72-7465DFC8C114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C1A4EE-BEE0-4A5F-AF72-7465DFC8C114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7789D676-DA61-461B-8E96-74593AE06235}
+	EndGlobalSection
+EndGlobal
